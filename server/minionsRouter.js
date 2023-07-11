@@ -10,7 +10,9 @@ const{
     deleteFromDatabasebyId,
     deleteAllFromDatabase,
     isValidMinion,
-  } =require('db.js')
+  } =require('./db')
+
+
 
 
   minionsRouter.param('minionId',(req,res,next,id)=>{

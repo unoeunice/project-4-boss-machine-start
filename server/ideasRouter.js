@@ -7,7 +7,9 @@ const{ createMeeting,
     addToDatabase,
     updateInstanceInDatabase,
     deleteFromDatabasebyId,
-    deleteAllFromDatabase}=require('./db.js')
+    deleteAllFromDatabase}=require("./db")
+
+
 
 
 
